@@ -1,0 +1,25 @@
+.content{
+    position: relative;
+    
+    
+    display: flex;
+    
+    flex-flow: row wrap;
+   
+    align-items: center;
+    
+    justify-content: space-between;
+    width: 100%
+}
+.content1{
+   
+    flex: 2;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.content2{
+    /* text-align: center; */
+    margin: 0 15px;
+    /* text-align: left; */
+}

@@ -1,0 +1,371 @@
+html,body,*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.header{
+    position: relative;
+    
+}
+.header ul li {
+    font-size: 13px;
+}
+.header .cha{
+    background-color: #eee;
+    height: 50px;
+    /* margin-top: 1px; */
+    line-height: 1.5rem;
+    padding-left: 20px;
+    /* opacity: 0.5; */
+    z-index: 10;
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    background-attachment: fixed;
+    padding-left: 20px;
+}
+.header .cha ul li img{
+    width: 70px;
+    margin-left: 20px;
+}
+.header .cha ul,a{
+    text-decoration: none;
+}
+.header .cha ul li{
+    display: inline-block;
+    position: relative;
+    transition: background-color .3s;
+}
+.header .cha ul li a:hover{
+    background-color: #eaa903;
+    color: #fff;  
+   text-decoration: none;
+    display: inline-block;
+  
+}
+.header .cha ul li a {
+    min-height: 50px;
+    padding: 0px 7px;
+    font-size: 15px;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    display: block;
+    line-height: 2.9rem;letter-spacing: .02em;
+    text-transform: uppercase;
+}
+.cha1{
+    text-align: left;
+    display: flex;
+    margin-bottom: 2px;
+    /* flex-flow: row wrap; */
+}
+/* .cha1 img{
+    padding: 6px 10px 10px 5px;
+} */
+
+/* .carousel{
+    margin-top: 6rem;
+} */
+
+.ac img{
+    width: 100%;
+}
+.ac2{
+    margin-left: 15px;
+}
+.ac1 p{
+    font-size: 15px;
+    width: 80%;
+    font-style: italic;
+    color: #333;font-size: 1.2em;
+    border-left: 2px solid #eaa903;
+    padding-left: 17px;
+}
+.ac2 h3{
+    color: #008000;
+    border-left: 2px solid #eaa903;
+    padding-left: 17px;
+}
+.ac3 img{
+    width: 80%;
+}
+
+.ac3 p {
+    font-size: 15px;    color: #333;
+    color: #333;font-size: 1.2em;
+}
+.ac3 h3{
+    color: #008000;
+}
+.bg{
+    background-color: rgb(245, 245, 245);
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+}
+.content1{
+   
+    flex: 2;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.content2{
+    /* text-align: center; */
+    margin: 9px 15px;
+    /* text-align: left; */
+}
+
+.anh img{
+    width: 100%;
+    height:50%;
+}
+.anh1 img{
+    width: 100%;
+    height:70%;
+}
+.b1{
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.co{
+    margin-top: 120px;
+    display: block;
+}
+
+.daily img{
+    width: 100%;
+}
+.daily h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.15em;
+    line-height: 1.2;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: #777;
+    line-height: 1.6;
+    font-weight: normal;
+
+}
+.daily p{
+    color: #777;
+    font-weight: normal;    font-family: "Roboto", sans-serif;
+
+}
+.daily .text p{
+    border: 2px solid currentColor;
+     font-size: .75em;
+    padding:3px 6px;line-height: 2.19em;
+    display: inline-block;
+    box-sizing: border-box;color: #eaa903;
+}
+
+.daily span {
+    color: #334862;font-size: .8em;
+}
+.ol h4{
+    font-size: 1em;
+    font-weight: 600;
+}
+.col{
+    display: flex;
+    margin-left: 0px;
+}
+
+.col img{
+    width: 60px;
+}
+.col p {
+    font-size: 15px;margin-bottom: 4px;
+}
+.col span{
+    color: #111;
+    font-weight: bold;
+}
+/* 
+bài cửa hàng */
+.cot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2px;
+}
+.khoi{
+    margin-left: 10px;
+}
+.khoi p {
+    font-family: 'Roboto', sans-serif;
+    color: #334862;
+    font-weight: 500;    line-height: 1.3;
+}
+.khoi img{
+    width: 100%;
+}
+.tex h4{
+    font-size: 1em;
+    font-weight: 600;    color: #777;
+}
+/* 
+bài sản phẩm */
+
+.mh img{
+    width: 100%;
+    height: 80%;
+}
+.mh p {
+    line-height: 1.8;  font-family: 'Roboto', sans-serif;
+}
+.back{
+    background-color: #eee;
+    padding:10px 13px;
+    margin-top: 30px;
+    height: 65%;
+}
+.back ul{
+    height: 60px;
+}
+.back ul li{
+    list-style-type: circle;
+    display: block;
+    line-height: 1.8;
+}
+.iconhead{
+    display: flex;
+    
+}
+.icon1{
+    margin:8px 6px;
+}
+.icon1 i{
+    border-radius: 50%;
+    background-color:  silver;
+    padding: 9px;
+    transform: 0.4s;
+}
+.foot p{
+    color: #777;font-family: 'Roboto', sans-serif;
+}
+.icon1:hover{
+     color:#2478ba !important; 
+   
+}
+.w3{
+    margin-top: 106px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+.ok tr{
+     padding :500px;
+}
+/* 
+liên hệ */
+.th{
+    margin-top: 115px;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position:absolute;
+    top: 28%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif; margin-top: 400px;
+}
+.contact-form1{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position:absolute;
+    top: 19%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif; margin-top: 400px;
+}
+
+.contact-form img{
+    width: 150px;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding:12px 18px ;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input {
+    width: 100%;
+    border: none;
+    background: none;
+}
+.okbtn{
+    display: inline-block;
+    background: #9b59b6;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+.okt{
+    display: inline-block;
+    color: white;
+    
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 10px;
+    
+   
+}
+.su{
+    z-index: 100;
+    margin-top: 1000px;
+}
+/* 
+lichsu_muahang */
+.row.ok3 {
+  float: right;  
+}
+.col-md-2.col-xs-2.hi {
+    width: 100px;
+}
+.oi{
+    display: inline-block;
+    float: right;
+}
